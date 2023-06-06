@@ -4,13 +4,13 @@ This script allows you to monitor CPU stress and index the metrics into an AWS O
 
 **Prerequisites**
 
---> Python 3.x
---> stress command (install using sudo apt install stress)
---> Elasticsearch Python client (install using pip install elasticsearch)
+--> Python 3.x.
+--> stress command (install using sudo apt install stress).
+--> Elasticsearch Python client (install using pip install elasticsearch).
 
 **Configuration**
 
--->> Before running the script, make sure to update the following variables:
+--> Before running the script, make sure to update the following variables:
 --> opensearch_endpoint: Replace with the endpoint URL of your AWS OpenSearch domain.
 --> index_name: Replace with the name of the index where you want to store the metrics.
 
