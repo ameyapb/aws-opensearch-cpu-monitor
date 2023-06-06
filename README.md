@@ -1,0 +1,1 @@
+# aws-opensearch-cpu-monitor
